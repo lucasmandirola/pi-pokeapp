@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap');
+
+
+.landing {
+  background-image: url(./Imgs/Landing.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.welcome {
+  font-family: 'Poppins';
+  font-weight: 500;
+  margin-top: 0px;
+  font-size: 80px;
+  color: #fff;
+}
+
+.button {
+  /* font-family: 'reboto';
+  font-weight: 500; */
+  font-size: 20px;
+  text-align: center;
+  outline: none;
+  background-color: white;
+  color: black;
+  height: 40px;
+  width: 110px;
+  border: white solid 2px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.button:hover{
+  background-color: transparent;
+  color: white;
+  transition: 0.5s;
+}

@@ -1,0 +1,37 @@
+.container {
+  /* border: solid 1px transparent; */
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  opacity: 0.7;
+}
+
+.link{
+  text-decoration: none;
+}
+
+.container:hover {
+  background-color: transparent;
+  transition: 0.5s;
+  opacity: 1;
+  /* border: solid 1px white; */
+}
+
+.name {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+.img {
+  display: block;
+  margin: auto;
+}
+
+.types {
+  display: inline-flex;
+  color: white;
+  width: 100%;
+  justify-content: center;
+  text-decoration: none;
+}

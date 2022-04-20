@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap');
+
+html body {
+  background: url('./Imgs/Home.png') no-repeat center center fixed;
+  background-size: cover;
+  
+}
+
+
+.father{
+  min-height: 95.5vh;
+  /* min-height: 100vh; */
+}
+
+.navbar {
+  display: flex;
+  margin-top: 5px;
+  padding: 8px 10px;
+  background-color: transparent;
+  height: 30px;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+.title {
+  padding: 0px;
+  margin: -5px;
+  width: 240px;
+}
+
+.buttonCreate, .reCharge{
+  font-family: 'Poppins';
+  font-weight: 200;
+  background-color:  rgb(74, 74, 216);
+  color: white;
+  height: 25px;
+  border: transparent solid 1px;;
+  cursor: pointer;
+  outline: none;
+  width: 120px;
+  border-radius: 3px;
+}
+
+.buttonCreate:hover, .reCharge:hover{
+  background-color: transparent;
+  color: white;
+  height: 25px;
+  border:  white solid 1px;
+  cursor: pointer;
+  transition: 0.5s;
+  outline: none;
+}
+
+.container {
+  padding-top: 20px;
+}
+
+.divOrderAndFilter{
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 10px;
+  margin-bottom: 25px;
+}
+
+.orderAndFilter {
+  font-family: 'Poppins';
+  font-weight: 200;
+  background-color: transparent;
+  border: white 1px solid;
+  color: white;
+  outline: none;
+  width: 161px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.orderAndFilter:hover {
+  background-color:  rgb(74, 74, 216);
+  border: transparent 1px solid;
+  color: white;
+  transition: .5s;
+  outline: none;
+  border-radius: 3px;
+}
+
+option {
+  font-family: 'Poppins';
+  font-weight: 200;
+  background-color: black;
+  color: white;
+}
+
+.loader {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+}
+
+.notFounGif{
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.notFound {
+  color: rgb(177, 10, 10);
+  display: flex;
+  justify-content: center;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 4rem;
+  margin-top: 30px;
+  padding-bottom: 2%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+
